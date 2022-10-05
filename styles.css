@@ -1,0 +1,14 @@
+body {
+    margin: auto;
+    padding: 0%;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    margin: 10px;
+}
