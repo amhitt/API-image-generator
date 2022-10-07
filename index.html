@@ -6,18 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pictures</title>
     <link rel="stylesheet" href="styles.css">
+     
 </head>
 <body>
  <div class="container">
     <h1>Let's find the right pictures!</h1>
-    <div class="get-photos">
-        <input class="search" type="text">
-        <button class="button">Find!</button>
+    <div class="search-and-time">
+        <div class="get-photos">
+                <input class="search" type="text">
+                <button class="button">Find!</button>
+            </div>
+        <div class="time">
+            <h2 id="hours">22</h2>
+            <h2>:</h2>
+            <h2 id="minutes">31</h2>
+            <h2>:</h2>
+            <h2 id="seconds">56</h2>
+        </div>
     </div>
-    <div class="photos"></div>
+    
+    <div class="photos">
+        <div class="photo"></div>
+        <div class="photo"></div>
+        <div class="photo"></div>
+        <div class="photo"></div>
+        <div class="photo"></div>
+        <div class="photo"></div>
+        <div class="photo"></div>
+        <div class="photo"></div>
+        <div class="photo"></div>
+    </div>
  </div>
+
  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
- <script src="script.js"></script>
+ <script defer src="script.js"></script>
+ <script defer src="time.js"></script>
+
 
 </body>
 </html>
